@@ -45,129 +45,139 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
-    <children>
-        <MenuBar VBox.vgrow="NEVER">
-            <menus>
-                <Menu mnemonicParsing="false" text="File">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="New" />
-                        <MenuItem mnemonicParsing="false" text="Open…" />
-                        <Menu mnemonicParsing="false" text="Open Recent" />
-                        <SeparatorMenuItem mnemonicParsing="false" />
-                        <MenuItem mnemonicParsing="false" text="Close" />
-                        <MenuItem mnemonicParsing="false" text="Save" />
-                        <MenuItem mnemonicParsing="false" text="Save As…" />
-                        <MenuItem mnemonicParsing="false" text="Revert" />
-                        <SeparatorMenuItem mnemonicParsing="false" />
-                        <MenuItem mnemonicParsing="false" text="Preferences…" />
-                        <SeparatorMenuItem mnemonicParsing="false" />
-                        <MenuItem mnemonicParsing="false" text="Quit" />
-                    </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Edit">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="Undo" />
-                        <MenuItem mnemonicParsing="false" text="Redo" />
-                        <SeparatorMenuItem mnemonicParsing="false" />
-                        <MenuItem mnemonicParsing="false" text="Cut" />
-                        <MenuItem mnemonicParsing="false" text="Copy" />
-                        <MenuItem mnemonicParsing="false" text="Paste" />
-                        <MenuItem mnemonicParsing="false" text="Delete" />
-                        <SeparatorMenuItem mnemonicParsing="false" />
-                        <MenuItem mnemonicParsing="false" text="Select All" />
-                        <MenuItem mnemonicParsing="false" text="Unselect All" />
-                    </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Help">
-                    <items>
-                        <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
-                    </items>
-                </Menu>
-            </menus>
-        </MenuBar>
-        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #F9E79F#F9E79F; -fx-background-image: /Users/srushti/Desktop/logo.jpeg/Users/srushti/Desktop/logo.jpeg;" VBox.vgrow="ALWAYS">
-            <children>
-                <ImageView fitHeight="114.0" fitWidth="125.0" layoutX="20.0" layoutY="120.0">
-                    <image>
-                        <Image url="@../../Desktop/logo.jpeg" />
-                    </image>
-                </ImageView>
-                <Label alignment="BOTTOM_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
-                    <font>
-                        <Font size="23.0" />
-                    </font>
-                </Label>
-                <ImageView fitHeight="82.0" fitWidth="89.0" layoutX="158.0" layoutY="68.0">
-                    <image>
-                        <Image url="@../../Desktop/logo-modified.png" />
-                    </image>
-                </ImageView>
-                <Circle fill="#75ff21f7" layoutX="301.0" layoutY="134.0" opacity="0.28" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
-                <ImageView fitHeight="104.0" fitWidth="104.0" layoutX="21.0" layoutY="22.0">
-                    <image>
-                        <Image url="@../../Downloads/keto-diet-modified.png" />
-                    </image>
-                </ImageView>
-                <Button layoutX="34.0" layoutY="140.0" mnemonicParsing="false" text="KETO DIET" textFill="#8e00b5" />
-                <Label alignment="BOTTOM_RIGHT" layoutX="14.0" layoutY="199.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
-                    <font>
-                        <Font size="23.0" />
-                    </font>
-                </Label>
-                <ImageView fitHeight="104.0" fitWidth="104.0" layoutX="21.0" layoutY="209.0">
-                    <image>
-                        <Image url="@../../Downloads/81738524-modified.png" />
-                    </image>
-                </ImageView>
-                <Button layoutX="44.0" layoutY="329.0" mnemonicParsing="false" text="DETOX" textFill="#900390" />
-                <Label alignment="BOTTOM_RIGHT" layoutX="473.0" layoutY="198.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
-                    <font>
-                        <Font size="23.0" />
-                    </font>
-                </Label>
-                <Label alignment="BOTTOM_RIGHT" layoutX="499.0" layoutY="14.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
-                    <font>
-                        <Font size="23.0" />
-                    </font>
-                </Label>
-                <ImageView fitHeight="91.0" fitWidth="104.0" layoutX="506.0" layoutY="29.0">
-                    <image>
-                        <Image url="@../../Downloads/close-up-of-salad-in-plate-257816-scaled-modified.png" />
-                    </image>
-                </ImageView>
-                <Button layoutX="498.0" layoutY="140.0" mnemonicParsing="false" prefWidth="125.0" text="CALORIE-DEFICIT" textFill="#9000a6" />
-                <ImageView fitHeight="104.0" fitWidth="111.0" layoutX="480.0" layoutY="206.0">
-                    <image>
-                        <Image url="@../../Downloads/vegan-diet-guide-thumb-modified.png" />
-                    </image>
-                </ImageView>
-                <Button layoutX="491.0" layoutY="329.0" mnemonicParsing="false" text="VEGAN DIET" textFill="#7a007c" />
-                <Label alignment="BOTTOM_RIGHT" layoutX="166.0" layoutY="198.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
-                    <font>
-                        <Font size="23.0" />
-                    </font>
-                </Label>
-                <ImageView fitHeight="97.0" fitWidth="96.0" layoutX="177.0" layoutY="210.0">
-                    <image>
-                        <Image url="@../../Downloads/overview-intermittent-fasting-2223396-a-9c901805a7fa451088810ccba49e4d59-modified.png" />
-                    </image>
-                </ImageView>
-                <Label alignment="BOTTOM_RIGHT" layoutX="317.0" layoutY="198.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
-                    <font>
-                        <Font size="23.0" />
-                    </font>
-                </Label>
-                <ImageView fitHeight="114.0" fitWidth="111.0" layoutX="320.0" layoutY="201.0">
-                    <image>
-                        <Image url="@../../Downloads/The-Pro-Way-To-Do-modified.png" />
-                    </image>
-                </ImageView>
-                <Circle fill="#f8ff21f7" layoutX="202.0" layoutY="109.0" opacity="0.28" radius="57.0" stroke="BLACK" strokeType="INSIDE" />
-                <Button layoutX="149.0" layoutY="329.0" mnemonicParsing="false" text="INTERMITANT FASTING" textFill="#900390" />
-                <Button layoutX="333.0" layoutY="329.0" mnemonicParsing="false" text="LIQUID DIET" textFill="#900390" />
-                <Circle fill="#75ff21f7" layoutX="166.0" layoutY="44.0" opacity="0.28" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
-            </children>
-        </AnchorPane>
-    </children>
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nutritionapp.HelloController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #F9E79F #F9E79F;" VBox.vgrow="ALWAYS">
+      <children>
+            <Label alignment="BOTTOM_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_RIGHT" layoutX="14.0" layoutY="189.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_RIGHT" layoutX="504.0" layoutY="14.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_RIGHT" layoutX="508.0" layoutY="189.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_RIGHT" layoutX="184.0" layoutY="189.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label alignment="BOTTOM_RIGHT" layoutX="363.0" layoutY="189.0" prefHeight="120.0" prefWidth="118.0" style="-fx-background-color: #F1C40F#F1C40F;" textFill="#c22763">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="25.0" layoutY="143.0" mnemonicParsing="false" onAction="#buttonon" text="KETO DIET" textFill="#8e00b5" />
+            <Button layoutX="501.0" layoutY="143.0" mnemonicParsing="false" onAction="#buttonon5" prefWidth="125.0" text="CALORIE-DEFICIT" textFill="#9000a6" />
+            <Button layoutX="44.0" layoutY="318.0" mnemonicParsing="false" onAction="#buttonon1" text="DETOX" textFill="#900390" />
+            <Button layoutX="167.0" layoutY="318.0" mnemonicParsing="false" onAction="#buttonon2" text="INTERMITANT FASTING" textFill="#900390" />
+            <Button layoutX="379.0" layoutY="318.0" mnemonicParsing="false" onAction="#buttonon3" text="LIQUID DIET" textFill="#900390" />
+            <Button layoutX="519.0" layoutY="318.0" mnemonicParsing="false" onAction="#buttonon4" text="VEGAN DIET" textFill="#7a007c" />
+            <ImageView fitHeight="92.0" fitWidth="96.0" layoutX="25.0" layoutY="203.0">
+               <image>
+                  <Image url="@images/81738524-modified.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="106.0" fitWidth="118.0" layoutX="14.0" layoutY="21.0">
+               <image>
+                  <Image url="@images/keto-diet-modified.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="103.0" layoutX="192.0" layoutY="199.0">
+               <image>
+                  <Image url="@images/overview-intermittent-fasting-2223396-a-9c901805a7fa451088810ccba49e4d59-modified.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="92.0" fitWidth="103.0" layoutX="509.0" layoutY="28.0">
+               <image>
+                  <Image url="@images/close-up-of-salad-in-plate-257816-scaled-modified.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="106.0" fitWidth="110.0" layoutX="512.0" layoutY="196.0">
+               <image>
+                  <Image url="@images/vegan-diet-guide-thumb-modified.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="106.0" fitWidth="110.0" layoutX="367.0" layoutY="196.0">
+               <image>
+                  <Image url="@images/The-Pro-Way-To-Do-modified.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#75ff21f7" layoutX="202.0" layoutY="28.0" opacity="0.28" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#75ff21f7" layoutX="269.0" layoutY="60.0" opacity="0.28" radius="60.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="92.0" fitWidth="96.0" layoutX="221.0" layoutY="14.0">
+               <image>
+                  <Image url="@images/logo-modified.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#75ff21f7" layoutX="302.0" layoutY="120.0" opacity="0.28" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+          <Button layoutX="370.0" layoutY="48.0" mnemonicParsing="false" onAction="#buttonon9" prefHeight="36.0" prefWidth="103.0" text=":::::::::" textFill="#d10000">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="143.0" layoutY="147.0" text="He who has health , has hope ;" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Baskerville Old Face" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="230.0" layoutY="166.0" text="and he who has hope, has everything;">
+               <font>
+                  <Font name="Baskerville Old Face" size="14.0" />
+               </font>
+            </Label>
+      </children>
+    </AnchorPane>
+  </children>
 </VBox>

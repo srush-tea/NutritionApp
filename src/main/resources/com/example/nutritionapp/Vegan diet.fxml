@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="716.0" style="-fx-background-color: #EAABAB;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.nutritionapp.HelloController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdffbc" height="79.0" layoutY="73.0" stroke="#fbffd4" strokeType="INSIDE" width="710.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbffce" height="79.0" layoutY="243.0" stroke="#f9ffc4" strokeType="INSIDE" width="710.0" />
+      <Label layoutX="6.0" prefHeight="64.0" prefWidth="653.0" text="VEGAN DIET ">
+         <font>
+            <Font name="Baskerville Old Face" size="40.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Circle fill="#feffb2" layoutX="506.0" layoutY="89.0" radius="77.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#faff9c" layoutX="641.0" layoutY="71.0" radius="58.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#fcffbf" layoutX="608.0" layoutY="192.0" radius="68.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cbff" height="136.0" layoutX="233.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cbff" height="136.0" layoutX="28.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cbff" height="96.0" layoutX="449.0" layoutY="274.0" stroke="BLACK" strokeType="INSIDE" width="227.0" />
+      <Label layoutX="14.0" layoutY="73.0" text="WHAT IS A VEGAN DIET ?">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="111.0" prefHeight="26.0" prefWidth="754.0" text="A vegan or plant-based diet excludes all animal products, including " />
+      <Label layoutX="10.0" layoutY="129.0" prefHeight="26.0" prefWidth="754.0" text="meat, dairy products, animal skin. It is a highly nutritious diet helpful " />
+      <Label layoutX="10.0" layoutY="153.0" prefHeight="26.0" prefWidth="754.0" text="to decrease risk of chronic disease, and aids wieght loss " />
+      <Label layoutX="10.0" layoutY="182.0" text=" VEGAN DIET PLAN" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="250.0" text="BREAKFAST " textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="239.0" layoutY="250.0" text="LUNCH &amp; DINNER" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="283.0" text="FIND INGREDIENTS ON " textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="268.0" prefHeight="34.0" prefWidth="221.0" text=" Sprouted-Grain Toast ">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="292.0" prefHeight="34.0" prefWidth="221.0" text="dry-roasted unsalted almonds">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="322.0" prefHeight="34.0" prefWidth="221.0" text="edamame, in pods">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="353.0" prefHeight="34.0" prefWidth="221.0" text=" Stuffed Sweet Potato ">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="292.0" prefHeight="34.0" prefWidth="221.0" text=" One-Pot Tomato Basil Pasta">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="268.0" prefHeight="34.0" prefWidth="221.0" text=" Vegan Superfood Buddha ">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="322.0" prefHeight="34.0" prefWidth="221.0" text=" Lemon-Garlic Vinaigrette">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="353.0" prefHeight="34.0" prefWidth="221.0" text="Beefless Vegan Tacos">
+         <font>
+            <Font name="Baskerville" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="54.0" layoutX="464.0" layoutY="307.0">
+         <image>
+            <Image url="@images/bb-modified.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="54.0" layoutX="608.0" layoutY="307.0">
+         <image>
+            <Image url="@images/vegan2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="54.0" layoutX="536.0" layoutY="307.0">
+         <image>
+            <Image url="@images/vegan.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="104.0" layoutX="589.0" layoutY="18.0">
+         <image>
+            <Image url="@images/1806251-healthy-snacks-al-1034-modified.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="139.0" layoutX="436.0" layoutY="21.0">
+         <image>
+            <Image url="@images/stuffed-avocados-vert-modified.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="123.0" layoutX="547.0" layoutY="134.0">
+         <image>
+            <Image url="@images/plant-meal-modified.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

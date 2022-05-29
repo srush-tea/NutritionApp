@@ -171,7 +171,7 @@
                   <Font name="Baskerville" size="21.0" />
                </font>
             </Label>
-            <Label layoutX="218.0" layoutY="255.0" prefHeight="34.0" prefWidth="221.0" text="Caeser Salad with chicken ">
+            <Label fx:id="closebutton" layoutX="218.0" layoutY="255.0" prefHeight="34.0" prefWidth="221.0" text="Caeser Salad with chicken ">
                <font>
                   <Font name="Baskerville" size="13.0" />
                </font>

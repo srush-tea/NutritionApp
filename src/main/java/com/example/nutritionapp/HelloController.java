@@ -13,6 +13,9 @@ import javafx.scene.control.Button;
 public class HelloController {
     @FXML
     private Label welcomeText;
+
+    @FXML
+    public Button closeButton;
     @FXML
     public TextField sreya;
     @FXML
@@ -27,6 +30,8 @@ public class HelloController {
 
     @FXML
     public void buttonon() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("keto.fxml"));
 
@@ -39,6 +44,8 @@ public class HelloController {
 
     @FXML
     public void buttonon1() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("detox.fxml"));
 
@@ -51,6 +58,8 @@ public class HelloController {
 
     @FXML
     public void buttonon2() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("intermittent.fxml"));
 
@@ -63,6 +72,8 @@ public class HelloController {
 
     @FXML
     public void buttonon3() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("liquid.fxml"));
 
@@ -75,6 +86,8 @@ public class HelloController {
 
     @FXML
     public void buttonon4() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Vegan diet.fxml"));
 
@@ -87,6 +100,8 @@ public class HelloController {
 
     @FXML
     public void buttonon5() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("calorie.fxml"));
 
@@ -107,6 +122,8 @@ public class HelloController {
 
     @FXML
     public void buttonon7() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("userinput.fxml"));
 
@@ -119,6 +136,8 @@ public class HelloController {
 
     @FXML
     public void buttonon8() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yesno.fxml"));
 
@@ -131,13 +150,9 @@ public class HelloController {
 
     @FXML
     protected void buttonon9() throws IOException {
+        Stage win =(Stage) closeButton.getScene().getWindow();
+        win.close();
 
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("yesno.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 620, 620);
-        Stage stage = new Stage();
-        stage.setTitle("Emergency!");
-        stage.setScene(scene);
-        stage.show();
 
     }
 

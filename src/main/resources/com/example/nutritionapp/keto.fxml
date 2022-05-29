@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="528.0" prefWidth="698.0" style="-fx-background-color: #FADBD8#FADBD8; -fx-border-color: ;" VBox.vgrow="ALWAYS">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="86.0" layoutX="-6.0" layoutY="63.0" stroke="#fffbfb" strokeType="INSIDE" width="713.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="86.0" layoutY="229.0" stroke="#fffbfb" strokeType="INSIDE" width="698.0" />
+            <Label layoutX="2.0" prefHeight="64.0" prefWidth="653.0" text="KETO-DIET ">
+               <font>
+                  <Font name="Baskerville Old Face" size="40.0" />
+               </font>
+            </Label>
+            <Circle fill="#ddbfd7" layoutX="395.0" layoutY="69.0" radius="77.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="135.0" fitWidth="144.0" layoutX="323.0" layoutY="2.0">
+               <image>
+                  <Image url="@images/eto_tacos_-modified.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#ddbfd7" layoutX="517.0" layoutY="69.0" radius="58.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="96.0" fitWidth="99.0" layoutX="468.0" layoutY="22.0">
+               <image>
+                  <Image url="@images/stuffed-avocados-vert-modified.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#ddbfd7" layoutX="550.0" layoutY="182.0" radius="68.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fitHeight="122.0" fitWidth="123.0" layoutX="540.0" layoutY="167.0">
+               <image>
+                  <Image url="@images/blog-and-fb-sheet-pan-roasted-vegetables-and-baked-eggs-egglands-700x1050-1558023041-modified.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="1.0" layoutY="69.0" prefHeight="28.0" prefWidth="200.0" text="What is Keto?">
+               <font>
+                  <Font name="Baskerville" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="91.0" prefHeight="46.0" prefWidth="328.0" text="Ketogenic diet is a very low carb, high fat diet. ">
+               <font>
+                  <Font name="Baskerville" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="114.0" prefHeight="45.0" prefWidth="410.0" text="It involves drastically reducing carbohydrate intake">
+               <font>
+                  <Font name="Baskerville" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="145.0" prefHeight="28.0" prefWidth="182.0" text="and replacing it with fat.">
+               <font>
+                  <Font name="Baskerville" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1.0" layoutY="182.0" prefHeight="46.0" prefWidth="227.0" text="Keto Diet Plan ">
+               <font>
+                  <Font name="Baskerville" size="24.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cbff" height="136.0" layoutX="8.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
+            <Label layoutX="20.0" layoutY="236.0" prefHeight="28.0" prefWidth="99.0" text="Breakfast: " textFill="WHITE">
+               <font>
+                  <Font name="Baskerville" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="333.0" prefHeight="28.0" prefWidth="165.0" text="coconut milk chia pudding">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="255.0" prefHeight="34.0" prefWidth="221.0" text="stuffed bell peppers ">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="283.0" prefHeight="28.0" prefWidth="165.0" text="mushroom omellette">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="298.0" prefHeight="45.0" prefWidth="372.0" text="two eggs fried in butter">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cbff" height="136.0" layoutX="213.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
+            <Label layoutX="220.0" layoutY="236.0" prefHeight="28.0" prefWidth="154.0" text="Lunch &amp; Dinner:" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville" size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="255.0" prefHeight="34.0" prefWidth="221.0" text="Caeser Salad with chicken ">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="217.0" layoutY="283.0" prefHeight="34.0" prefWidth="221.0" text="Bunless salmon burgers ">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="217.0" layoutY="304.0" prefHeight="34.0" prefWidth="221.0" text="Bison steak with brocolli ">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="217.0" layoutY="330.0" prefHeight="34.0" prefWidth="221.0" text="Pork chops with green beans ">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cbff" height="96.0" layoutX="417.0" layoutY="263.0" stroke="BLACK" strokeType="INSIDE" width="227.0" />
+            <Label layoutX="418.0" layoutY="269.0" prefHeight="34.0" prefWidth="210.0" text="Find Ingredients on.." textFill="WHITE">
+               <font>
+                  <Font name="Baskerville" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="57.0" fitWidth="59.0" layoutX="501.0" layoutY="299.0">
+               <image>
+                  <Image url="@images/fg-modified.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="575.0" layoutY="296.0">
+               <image>
+                  <Image url="@images/ft-modified.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="57.0" fitWidth="59.0" layoutX="432.0" layoutY="299.0">
+               <image>
+                  <Image url="@images/bb-modified.png" />
+               </image>
+            </ImageView>
+            <AmbientLight color="CHARTREUSE" layoutX="284.0" layoutY="40.0" lightOn="true" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
